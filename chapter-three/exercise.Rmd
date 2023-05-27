@@ -1,7 +1,7 @@
 ---
 title: "chapter-two-exercise"
 author: "Anyanwu Chinedu"
-output: html_document
+output: pdf_document
 ---
 ##### Chapter three exercise
 

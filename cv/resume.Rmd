@@ -1,0 +1,114 @@
+---
+name: Chinedu
+surname: Anyanwu
+position: "Full-stack Web Developer"
+address: "Owerri, Imo State Nigeria"
+phone: +234-8161450553
+pronouns: He/His
+profilepic: image.jpg
+email: "anyanwuchinedu687@yahoo.com"
+twitter: _edugreat
+github: edugreat
+linkedin: chinedu-anyanwu-313003236/
+#date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Chinedu, is a passionate Web Developer and Data Analyst with experience in developing full stack web applications. He is adept in writing clear, concise and readable codes that are easy to understand, maintain and debug. He can be easily adaptive to changing scenarios, multitaskful, critical & analytical in thinking as well as quick in learning new technologies. He is able to work with teams or independently as the need may arise."
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Work Experience
+```{r}
+library(tibble)
+tribble(
+  ~ org, ~ date, ~task,
+  "Personal project", "2022-date"," E-LEARNING PLATFORM"
+) %>% detailed_entries(what = task, when = date, with = org)
+```
+\vspace{-8truemm}
+
+ * Initiated an e-learning platform for secondary school students.
+ * Developed back-end services and logic for the platform.
+ * Developed back-end repository to persist user-initiated events.
+ * Implemented angular front-end components that communicates to the back-end server thereby rendering webpages.
+ * Implemented RESTful web services for easy communication.
+ * Managed code versioning with git.
+ 
+ \vspace{5truemm}
+```{r}
+library(tibble)
+tribble(
+  ~ org, ~ date, ~ task, ~ where,
+  "NYSC","2022-20123 ", "Science & Mathematics Instructor","Akwaibom Nigeria"
+) %>% detailed_entries(what = task, when = date, where = where, with = org)
+
+```
+\vspace{-5truemm}
+* Imparted on students the thinking skills for developing solutions to task and challenges.
+* Collaborated with colleagues and staff to develop modules for effective practical learning.
+
+\vspace{4truemm}
+
+
+```{r}
+library(tibble)
+tribble(
+  ~ org, ~ date, ~ task, ~ where,
+  "Faculty of engineering, UNIZIK","2017", " electronic voting system","Awka, Nigeria"
+) %>% detailed_entries(what = task, when = date, where = where, with = org)
+  
+```
+* Implemented logic used in a faculty-wide election process that validated, tracked and recorded voting process.
+
+\vspace{4truemm}
+
+# EDUCATION
+```{r}
+library(tibble)
+tribble(
+  ~ university, ~ date,~ where,~cert,
+  "Nnamdi Azikiwe University", " 2015-2020", "Awka, Nigeria","B.eng (electrical & electronic engineering)"
+) %>% detailed_entries(what = cert, with =university, when = date, where = where )
+```
+\vspace{4truemm}
+
+# CERTIFICATIONS & BADGES
+```{r}
+library(tibble)
+tribble(
+  ~ award, ~ org,~ date,
+  "Data Analytics", " Google", "2023",
+  "Full stack angular & spring-boot development",
+  " Udemy","2022",
+  "Spring & hibernate development"," Udemy","2021"
+) %>% brief_entries(
+  glue::glue("Certification in {award}"),
+  with = org, when = date
+)
+```
+
+
+# PROGRAMMING SKILLS
+* proficient in Java, JavaScript, Typescript and SQL programming languages.
+* proficient in developing RESTful web applications with spring boot & angular frameworks
+* Good knowledge in angular framework & reactive JavaScript
+* Good knowledge in analytical & computational programming such as R.
+* Good knowledge in HTML, CSS & bootstrap
+
+# SOFT SKILLS
+* Good listening ability.
+* Easily adaptive to changing environment.
+* Fast learning ability with little or no supervision.
+* Good communication & writing skills in English language.
+* Good Time management prowess
+
+# Hobbies
+* Reading books and documentaries.
+* Listening to soft tones(at leisure times)
+
+# Reference
+Available on request.
+

@@ -5,7 +5,6 @@ position: "Full-stack Web Developer"
 address: "Owerri, Imo State Nigeria"
 phone: +234-8161450553
 pronouns: He/His
-profilepic: image.jpg
 email: "anyanwuchinedu687@yahoo.com"
 twitter: _edugreat
 github: edugreat
@@ -30,34 +29,15 @@ tribble(
 ```
 \vspace{-8truemm}
 
- * Initiated an e-learning platform for secondary school students.
- * Developed back-end services and logic for the platform.
- * Developed back-end repository to persist user-initiated events.
- * Implemented angular front-end components that communicates to the back-end server thereby rendering webpages.
- * Implemented RESTful web services for easy communication.
- * Managed code versioning with git.
+ * Created e-learning platform for secondary school students, with backend data storage, Angular frontend, RESTful communication, and Git version control 
  
  \vspace{5truemm}
-```{r}
-library(tibble)
-tribble(
-  ~ org, ~ date, ~ task, ~ where,
-  "NYSC","2022-20123 ", "Science & Mathematics Instructor","Akwaibom Nigeria"
-) %>% detailed_entries(what = task, when = date, where = where, with = org)
-
-```
-\vspace{-5truemm}
-* Imparted on students the thinking skills for developing solutions to task and challenges.
-* Collaborated with colleagues and staff to develop modules for effective practical learning.
-
-\vspace{4truemm}
-
 
 ```{r}
 library(tibble)
 tribble(
   ~ org, ~ date, ~ task, ~ where,
-  "Faculty of engineering, UNIZIK","2017", " electronic voting system","Awka, Nigeria"
+  "UNIZIK, Awka","2017", " electronic voting system demo","Nigeria"
 ) %>% detailed_entries(what = task, when = date, where = where, with = org)
   
 ```
@@ -76,34 +56,75 @@ tribble(
 \vspace{4truemm}
 
 # CERTIFICATIONS & BADGES
+
+```{r}
+library(tibble)
+tribble(
+  ~ org, ~ date, ~task,
+  "virtual experience program on Forage", "November 2023"," JPMorgan Chase & Co. Software Engineering Lite"
+) %>% detailed_entries(what = task, when = date, with = org)
+```
+\vspace{-6truemm}
+
+ * Completed a simulation focused on the process of completing an engineering ticket for a system in the credit-card rewards department of JPMorgan Chase & Co..
+ * Created a new class to get an existing system up and running
+ * Wrote a test suite for the class added.
+
+\vspace{5truemm}
+
 ```{r}
 library(tibble)
 tribble(
   ~ award, ~ org,~ date,
-  "Data Analytics", " Google", "2023",
-  "Full stack angular & spring-boot development",
-  " Udemy","2022",
-  "Spring & hibernate development"," Udemy","2021"
+  "Data Analytics", " Google", "2023"
 ) %>% brief_entries(
   glue::glue("Certification in {award}"),
   with = org, when = date
 )
 ```
+\vspace{-6truemm}
 
+ * Clean, organize, and process data for analysis using spreadsheet, SQL, and R.
+ * Visualize and present data in dashboards.
+
+\vspace{5truemm}
+
+```{r}
+library(tibble)
+tribble(
+  ~ award, ~ org,~ date,
+  "developer",
+  " Udemy","2022"
+) %>% brief_entries(
+  glue::glue("Full stack angular & spring-boot {award}"),
+  with = org, when = date
+)
+```
+\vspace{-6truemm}
+
+* Developed a Full Stack E-commerce app with Angular front-end and Spring Boot back-end, including a shopping cart and Stripe payment integration
+
+\vspace{5truemm}
+```{r}
+library(tibble)
+tribble(
+  ~ award, ~ org,~ date,
+  "developer"," Udemy","2021"
+) %>% brief_entries(
+  glue::glue("Spring & Hibernate {award}"),
+  with = org, when = date
+)
+```
+* Key Spring Boot core features including: Annotations, Java Config, Spring REST, Spring MVC, AOP, Hibernate/JPA, and Maven.
+* Proficiency in Spring Boot REST APIs, Spring Boot Security, Spring Data JPA, Spring Data REST, and Thymeleaf.
 
 # PROGRAMMING SKILLS
-* proficient in Java, JavaScript, Typescript and SQL programming languages.
-* proficient in developing RESTful web applications with spring boot & angular frameworks
-* Good knowledge in angular framework & reactive JavaScript
-* Good knowledge in analytical & computational programming such as R.
-* Good knowledge in HTML, CSS & bootstrap
+* Proficient in Java, JavaScript, TypeScript, SQL, and RESTful web applications using Spring Boot and Angular.
+* Strong knowledge of HTML, CSS, and Bootstrap.
 
 # SOFT SKILLS
-* Good listening ability.
-* Easily adaptive to changing environment.
-* Fast learning ability with little or no supervision.
-* Good communication & writing skills in English language.
-* Good Time management prowess
+* Good listener, adaptable, fast learner, effective English communication and writing skills, and excellent time management.
+
 
 # Hobbies
 * Reading books and documentaries.

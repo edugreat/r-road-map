@@ -61,6 +61,23 @@ tribble(
 library(tibble)
 tribble(
   ~ org, ~ date, ~task,
+  "", "November 2023"," Hewlett Packard Enterprise Software Engineering Job Simulation"
+) %>% detailed_entries(what = task, when = date, with = org)
+```
+\vspace{-6truemm}
+
+ * Wrote a proposal for a RESTful web service to manage a list of employees
+ * Built a web server application in Java Spring Boot that can accept and respond to HTTP requests as well as support uploading JSON data
+ * Developed and ran a set of unit tests to assess my Java Spring Boot application’s performance.
+
+\vspace{5truemm}
+
+
+
+```{r}
+library(tibble)
+tribble(
+  ~ org, ~ date, ~task,
   "virtual experience program on Forage", "November 2023"," JPMorgan Chase & Co. Software Engineering Lite"
 ) %>% detailed_entries(what = task, when = date, with = org)
 ```
